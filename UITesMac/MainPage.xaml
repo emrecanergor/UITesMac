@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:UITesMac" x:Class="UITesMac.MainPage">
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout VerticalOptions="FillAndExpand">
+                <Entry x:Name="entry1"
+                       ClassId="ehe"
+                       AutomationId="entry_xyz"
+                       HorizontalOptions="FillAndExpand"
+                       VerticalOptions="CenterAndExpand"></Entry>
+
+                <Label Text="Welcome to Xamarin.Forms!" 
+                   x:Name="label1"
+                       AutomationId="label_xyz"
+               HorizontalOptions="CenterAndExpand"
+               VerticalOptions="Start" />
+
+                <Button Text="Degistir" x:Name="buton1"
+                    Clicked="onClick"
+                        AutomationId="buton_xyz"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="CenterAndExpand"></Button>
+            </StackLayout>
+            <StackLayout VerticalOptions="EndAndExpand"></StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
